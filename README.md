@@ -58,6 +58,35 @@ W ramach eksperymentów wykorzystano instrukcyjną wersję modelu Bielik 11B. Mo
 
 Przykładowo, w środowisku lokalnym należy zapewnić dostęp do odpowiedniego modelu językowego oraz dostosować ścieżki lub parametry konfiguracyjne w kodzie prototypu.
 
+## Konfiguracja ścieżek
+
+Przed uruchomieniem prototypu należy dostosować ścieżki do plików wykorzystywanych przez aplikację. W szczególności dotyczy to lokalizacji modelu językowego GGUF oraz pliku bazy wiedzy RAG.
+
+Ścieżki te są zdefiniowane w pliku `chatbot_engine.py`:
+
+```python
+MODEL_PATH = r"ścieżka/do/modelu.gguf"
+RAG_FILE_PATH = os.path.join("dane", "adhd_cechy_jezykowe.txt")
+```
+
+Zmienna `MODEL_PATH` powinna wskazywać miejsce, w którym lokalnie zapisany jest pobrany model językowy. Repozytorium nie zawiera pliku modelu, dlatego należy pobrać go oddzielnie, na przykład z platformy Hugging Face, a następnie wskazać jego lokalizację w kodzie.
+
+Zmienna `RAG_FILE_PATH` powinna wskazywać plik zawierający bazę wiedzy RAG. Domyślnie zakłada się, że plik znajduje się w folderze `dane/` wewnątrz folderu prototypu.
+
+Przykładowa struktura folderu `prototyp/`:
+
+```text
+prototyp/
+├── app.py
+├── chatbot_engine.py
+├── requirements.txt
+├── dane/
+│   └── adhd_cechy_jezykowe.txt
+└── Raporty/
+```
+
+Folder `Raporty/` jest wykorzystywany do zapisu raportów generowanych przez aplikację. Jeśli folder nie istnieje, zostanie utworzony automatycznie podczas działania programu.
+
 ## Uruchomienie prototypu
 
 Aby uruchomić prototyp, należy przejść do folderu `prototyp/`:
