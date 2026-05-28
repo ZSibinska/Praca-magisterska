@@ -3,7 +3,7 @@
 
 Repozytorium zawiera materiały badawcze oraz prototyp systemu przygotowany w ramach pracy magisterskiej. Celem projektu jest eksperymentalne sprawdzenie możliwości wykorzystania dużego modelu językowego oraz podejścia RAG do analizy swobodnych wypowiedzi tekstowych użytkownika.
 
-Projekt koncentruje się na identyfikacji wybranych cech wypowiedzi, takich jak powtórzenia, emocjonalne wzmocnienia oraz przeskoki tematyczne. Rozwiązanie ma charakter badawczy i nie stanowi narzędzia diagnostycznego.
+Projekt koncentruje się na identyfikacji wybranych cech wypowiedzi. Rozwiązanie ma charakter badawczy i nie stanowi narzędzia diagnostycznego.
 
 ## Struktura repozytorium
 
