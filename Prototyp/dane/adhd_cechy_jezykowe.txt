@@ -1,0 +1,241 @@
+# ADHD – cechy językowe (RAG)
+
+## Zmniejszona długość wypowiedzi
+
+Źródło: Frontiers (2025)
+Typ: cecha ilościowa
+
+Opis:
+Wypowiedzi osób z ADHD są średnio krótsze w porównaniu do grupy kontrolnej.
+
+Wskaźniki:
+- krótsze teksty
+- mniejsza liczba słów
+
+Interpretacja:
+Może to wynikać z trudności w utrzymaniu uwagi oraz planowaniu wypowiedzi.
+
+---
+
+## Zmniejszona różnorodność leksykalna
+
+Źródło: Kim et al. (2015); Gregg et al. (2002); Frontiers (2025)
+Typ: cecha leksykalna
+
+Opis:
+Osoby z ADHD wykazują mniejszą różnorodność słownictwa oraz większą powtarzalność używanych wyrazów.
+
+Wskaźniki:
+- niższy type-token ratio
+- powtarzalność słów
+- ograniczony zakres słownictwa
+
+Interpretacja:
+Może wskazywać na trudności poznawcze oraz ograniczoną kontrolę nad doborem słów.
+
+---
+
+## Zmniejszona gęstość leksykalna
+
+Źródło: Frontiers (2025)
+Typ: cecha leksykalna
+
+Opis:
+Wypowiedzi zawierają mniejszy udział słów treściowych w stosunku do wszystkich słów.
+
+Wskaźniki:
+- niższy udział rzeczowników, czasowników, przymiotników i przysłówków
+- większy udział słów funkcyjnych
+
+Interpretacja:
+Może świadczyć o mniejszej informatywności wypowiedzi.
+
+---
+
+## Obniżona spójność wypowiedzi
+
+Źródło: Frontiers (2025); Coelho et al. (2018, 2021)
+Typ: cecha jakościowa
+
+Opis:
+Wypowiedzi osób z ADHD są mniej spójne i trudniejsze do śledzenia.
+
+Wskaźniki:
+- częste zmiany tematu
+- brak logicznych powiązań między zdaniami
+- mniejsza liczba spójników
+
+Interpretacja:
+Może wynikać z deficytów uwagi oraz trudności w organizacji myśli.
+
+---
+
+## Zwiększona liczba zdań
+
+Źródło: Kim et al. (2015)
+Typ: cecha składniowa
+
+Opis:
+Wypowiedzi zawierają większą liczbę zdań, ale są one mniej złożone.
+
+Wskaźniki:
+- więcej krótszych zdań
+- rozdrobnienie wypowiedzi
+
+Interpretacja:
+Może wskazywać na trudności w budowaniu bardziej złożonych struktur językowych.
+
+---
+
+## Uproszczona struktura składniowa
+
+Źródło: Kim et al. (2015); Engelhardt et al. (2011)
+Typ: cecha składniowa
+
+Opis:
+Zdania osób z ADHD są mniej złożone pod względem gramatycznym.
+
+Wskaźniki:
+- mniej zdań podrzędnych
+- mniejsza liczba morfemów na zdanie
+- prostsze konstrukcje składniowe
+
+Interpretacja:
+Może być związane z ograniczoną zdolnością planowania wypowiedzi.
+
+---
+
+## Zmniejszone użycie wybranych kategorii słów
+
+Źródło: Kim et al. (2015)
+Typ: cecha leksykalna
+
+Opis:
+Osoby z ADHD rzadziej używają niektórych kategorii słów, np. zaimków liczebnikowych.
+
+Wskaźniki:
+- mniejsza liczba określonych typów słów
+
+Interpretacja:
+Może wskazywać na uproszczony styl wypowiedzi.
+
+---
+
+## Zwiększone użycie przymiotników
+
+Źródło: Kim et al. (2015)
+Typ: cecha leksykalna
+
+Opis:
+W wypowiedziach obserwuje się większą liczbę przymiotników.
+
+Wskaźniki:
+- częstsze użycie przymiotników
+
+Interpretacja:
+Może wskazywać na bardziej opisowy, ale mniej uporządkowany styl wypowiedzi.
+
+---
+
+## Gadatliwość (verbosity)
+
+Źródło: Gregg et al. (2002); Coelho et al. (2018, 2021)
+Typ: cecha dyskursywna
+
+Opis:
+Osoby z ADHD mają tendencję do generowania dłuższych wypowiedzi zawierających nadmiar informacji.
+
+Wskaźniki:
+- zwiększona długość wypowiedzi
+- obecność informacji nieistotnych
+- dygresyjność
+
+Interpretacja:
+Może wynikać z impulsywności oraz trudności w selekcji informacji.
+
+---
+
+## Obniżona jakość pisania
+
+Źródło: Gregg et al. (2002)
+Typ: cecha ogólna
+
+Opis:
+Jakość pisania oceniana całościowo jest niższa u osób z ADHD.
+
+Wskaźniki:
+- słabsze powiązanie cech leksykalnych i składniowych
+- niższa ocena holistyczna tekstu
+
+Interpretacja:
+Dotyczy organizacji i struktury wypowiedzi, a nie błędów językowych.
+
+---
+
+## Problemy z organizacją narracji
+
+Źródło: Coelho et al. (2018); Hill et al. (2025)
+Typ: cecha dyskursywna
+
+Opis:
+Osoby z ADHD mają trudności z budowaniem spójnej narracji.
+
+Wskaźniki:
+- brak kluczowych elementów (np. zakończenia)
+- błędy w kolejności zdarzeń
+- nadmiar zbędnych informacji
+
+Interpretacja:
+Może wynikać z zaburzeń funkcji wykonawczych.
+
+---
+
+## Nadmiar informacji i dygresyjność
+
+Źródło: Coelho et al. (2018, 2021)
+Typ: cecha dyskursywna
+
+Opis:
+Wypowiedzi zawierają informacje poboczne i odbiegające od głównego tematu.
+
+Wskaźniki:
+- dygresje
+- tangencjalność wypowiedzi
+
+Interpretacja:
+Może być związane z trudnościami w utrzymaniu celu wypowiedzi.
+
+---
+
+## Niepłynność wypowiedzi
+
+Źródło: Engelhardt et al. (2011)
+Typ: cecha dyskursywna
+
+Opis:
+Wypowiedzi są mniej płynne i zawierają przerwy.
+
+Wskaźniki:
+- pauzy
+- powtórzenia
+- przerwania wypowiedzi
+
+Interpretacja:
+Może wynikać z trudności w planowaniu i podtrzymywaniu wypowiedzi.
+
+---
+
+## Mniejsza złożoność i informatywność wypowiedzi
+
+Źródło: Engelhardt et al. (2011)
+Typ: cecha dyskursywna
+
+Opis:
+Wypowiedzi są mniej złożone i zawierają mniej informacji.
+
+Wskaźniki:
+- uproszczona struktura
+- niższa zawartość informacyjna
+
+Interpretacja:
+Pomimo dłuższej formy, wypowiedzi mogą być mniej efektywne komunikacyjnie.

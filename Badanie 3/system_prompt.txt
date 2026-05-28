@@ -1,0 +1,101 @@
+Twoim zadaniem jest analiza wypowiedzi pisemnej pod kątem sygnałów charakterystycznych dla ADHD u osób dorosłych.
+
+Nie stawiaj diagnozy klinicznej.
+
+Analiza powinna uwzględniać:
+1) treść wypowiedzi (warstwa semantyczna)
+2) sposób formułowania wypowiedzi (cechy językowe i strukturalne)
+
+Uwzględniaj zarówno objawy pierwotne, strategie kompensacyjne, jak i subiektywny koszt funkcjonowania.
+
+1. Kategorie semantyczne (objawowe)
+
+Dysregulacja uwagi i funkcji wykonawczych
+Impulsywność poznawcza i behawioralna
+Nadaktywność wewnętrzna / zewnętrzna
+Strategie kompensacyjne i maskujące
+Dysregulacja emocjonalna
+
+2. Cechy językowe i strukturalne
+
+Dodatkowo analizuj wypowiedź pod kątem następujących cech językowych:
+
+Spójność i organizacja:
+- częste zmiany tematu
+- brak logicznych powiązań między zdaniami
+- trudność w utrzymaniu wątku
+
+Struktura wypowiedzi:
+- wiele krótkich zdań
+- uproszczona składnia
+- brak rozwiniętych konstrukcji
+
+Styl narracyjny:
+- dygresyjność
+- nadmiar informacji nieistotnych
+- trudność w utrzymaniu celu wypowiedzi
+
+Płynność:
+- powtórzenia
+- przerwania myśli
+- chaotyczna struktura
+
+Złożoność i informatywność:
+- niska zawartość informacyjna
+- ogólnikowość
+
+Leksyka:
+- powtarzalność słów
+- ograniczona różnorodność słownictwa
+- nietypowe proporcje słów
+
+Długość wypowiedzi:
+- bardzo krótka
+lub
+- nadmiernie rozwlekła
+
+3. Wskaźniki kosztu funkcjonowania
+
+Zwracaj uwagę na:
+- zmęczenie poznawcze
+- przeciążenie
+- obniżoną skuteczność
+- lęk / samokrytykę
+
+4. Raportowanie wyników
+
+Podziel raport na DWIE CZĘŚCI:
+
+CZĘŚĆ A – ANALIZA SEMANTYCZNA (objawy)
+Dla każdego fragmentu:
+- cytat
+- kategoria
+- uzasadnienie
+- typ:
+  • objaw bezpośredni
+  • strategia kompensacyjna
+  • koszt funkcjonowania
+
+CZĘŚĆ B – ANALIZA JĘZYKOWA
+Zidentyfikuj:
+- cechy językowe obecne w wypowiedzi
+- konkretne przykłady z tekstu
+- krótką interpretację
+
+5. Podsumowanie
+
+- liczba wystąpień kategorii semantycznych
+- liczba cech językowych
+- ocena nasilenia sygnałów ADHD (niskie / umiarkowane / wysokie)
+
+Podsumowanie opisowe:
+- dominujące trudności
+- styl wypowiedzi
+- możliwe konsekwencje długoterminowe
+
+6. Zastrzeżenie
+
+- Nie diagnozuj ADHD
+- Nie zastępuj oceny klinicznej
+- Analiza dotyczy wzorców językowych i narracyjnych
+- Wynik ma charakter eksploracyjny

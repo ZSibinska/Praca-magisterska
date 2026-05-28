@@ -1,0 +1,49 @@
+=== EKSPERYMENT 3 — WARIANT BEZ RAG ===
+
+Model: D:\VS_Code_mgr\Python_3_12\Modele\Bielik-11B-v2.3-Instruct.Q4_K_M.gguf
+Temperatura: 0.2
+Liczba słów w wypowiedzi: 279
+
+=== WYPOWIEDŹ UŻYTKOWNIKA ===
+Miałam opowiedzieć o tym, jak wyglądał mój ostatni tydzień, ale trochę nie wiem, od czego zacząć, bo niby nic wielkiego się nie stało, a jednak cały czas miałam wrażenie, że wszystko mi się rozjeżdża. W poniedziałek miałam zrobić jedną rzecz, w sensie wysłać maila, tylko zanim go wysłałam, zaczęłam poprawiać tabelkę, potem przypomniałam sobie o praniu, a potem już w ogóle szukałam ładowarki, chociaż mail dalej był otwarty. I to było takie strasznie męczące, naprawdę męczące, bo cały dzień coś robiłam, ale jak wieczorem próbowałam powiedzieć, co konkretnie zrobiłam, to wyszło, że właściwie niewiele.
+
+We wtorek było podobnie. Zaczęłam czytać dokumentację, potem zapisałam trzy krótkie notatki, potem nagle przeskoczyłam do innego zadania, bo wydawało mi się ważniejsze, potem wróciłam, ale już nie pamiętałam, co chciałam sprawdzić. Dokument był długi, skomplikowany, chaotyczny, taki ciężki i przytłaczający, więc czytałam fragmentami. W sumie dużo mówiłam o tym koleżance, chyba za dużo, bo zaczęłam od problemu z dokumentem, potem opowiadałam o kawie, potem o tym, że w tramwaju ktoś głośno rozmawiał, a dopiero później wróciłam do tego, że nie skończyłam zadania.
+
+Najgorsze jest to, że ja często mam dużo zdań w głowie, dużo małych kawałków, ale one nie układają się w jedną prostą historię. Piszę krótko, potem dopisuję, potem kasuję, potem znowu dopisuję coś bardzo opisowego, na przykład że coś jest okropne, dziwne, męczące, ciężkie, rozpraszające, i przez to tekst robi się większy, ale chyba nie bardziej konkretny. Czasami powtarzam te same słowa, bo nie mogę znaleźć lepszego słowa, więc piszę, że coś było trudne, bardzo trudne, naprawdę trudne. No i robię pauzy, urywam zdania, zaczynam od nowa, gubię puentę. Na końcu mam poczucie, że powiedziałam dużo, ale niekoniecznie to, co było najważniejsze.
+
+=== RAPORT MODELU ===
+1. Krótkie podsumowanie danych:
+Wypowiedź użytkownika opisuje ostatni tydzień i wyraża trudności w organizacji zadań oraz narracji. Użytkownik wspomina o problemach z koncentracją, rozproszeniem uwagi i brakiem spójności w działaniach.
+
+2. Tabela identyfikacji cech językowych:
+| Cecha | Wynik |
+|-------|-------|
+| Zmniejszona długość wypowiedzi | NIEJEDNOZNACZNE |
+| Zmniejszona różnorodność leksykalna | TAK |
+| Zmniejszona gęstość leksykalna | NIEJEDNOZNACZNE |
+| Obniżona spójność wypowiedzi | TAK |
+| Zwiększona liczba zdań | NIEJEDNOZNACZNE |
+| Uproszczona struktura składniowa | TAK |
+| Zmniejszone użycie wybranych kategorii słów | NIEJEDNOZNACZNE |
+| Zwiększone użycie przymiotników | TAK |
+| Gadatliwość | TAK |
+| Obniżona jakość pisania | TAK |
+| Problemy z organizacją narracji | TAK |
+| Nadmiar informacji i dygresyjność | TAK |
+| Niepłynność wypowiedzi | TAK |
+| Mniejsza złożoność i informatywność wypowiedzi | NIEJEDNOZNACZNE |
+
+3. Fragmenty wypowiedzi warte uwagi:
+- "W poniedziałek miałam zrobić jedną rzecz, w sensie wysłać maila, tylko zanim go wysłałam, zaczęłam poprawiać tabelkę, potem przypomniałam sobie o praniu, a potem już w ogóle szukałam ładowarki, chociaż mail dalej był otwarty."
+- "Dokument był długi, skomplikowany, chaotyczny, taki ciężki i przytłaczający, więc czytałam fragmentami."
+- "Piszę krótko, potem dopisuję, potem kasuję, potem znowu dopisuję coś bardzo opisowego, na przykład że coś jest okropne, dziwne, męczące, ciężkie, rozpraszające, i przez to tekst robi się większy, ale chyba nie bardziej konkretny."
+- "Czasami powtarzam te same słowa, bo nie mogę znaleźć lepszego słowa, więc piszę, że coś było trudne, bardzo trudne, naprawdę trudne."
+
+4. Dominujące sygnały widoczne w wypowiedzi:
+- Trudności z koncentracją i organizacją zadań
+- Problemy z płynnością narracji
+- Nadmierne użycie przymiotników i powtórzeń
+- Dygresyjność i brak spójności w opisie działań
+
+5. Ostrożny wniosek badawczy:
+Wypowiedź użytkownika sugeruje, że może on/ona

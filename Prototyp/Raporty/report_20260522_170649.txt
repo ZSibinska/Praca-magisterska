@@ -1,0 +1,239 @@
+=== RAPORT BADAWCZY ===
+
+Model lokalny: Bielik-11B-v2.3-Instruct.Q4_K_M.gguf
+Typ modelu: mistral
+Ścieżka modelu: D:\VS_Code_mgr\Python_3_12\Modele\Bielik-11B-v2.3-Instruct.Q4_K_M.gguf
+Baza wiedzy RAG: adhd_cechy_jezykowe.txt
+Ścieżka bazy wiedzy RAG: data\adhd_cechy_jezykowe.txt
+Model osadzeń: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+
+Parametry modelu językowego:
+- max_new_tokens: 1050
+- temperature: 0.2
+- top_p: 0.9
+- repetition_penalty: 1.18
+- context_length: 4096
+- gpu_layers: 0
+
+Parametry RAG i dopasowań fragmentów:
+- top_k_rag: 4
+- fetch_k: 10
+- lambda_mult: 0.75
+- top_k_matches_per_fragment: 3
+- min_fragment_words: 20
+- max_fragment_words: 70
+- min_match_score: 0.28
+
+1. Surowa wypowiedź użytkownika o objawach
+Zauważam u siebie głównie problemy z koncentracją, odkładanie rzeczy na ostatnią chwilę i taki ciągły chaos w głowie. Często zaczynam kilka zadań naraz, a potem żadnego nie kończę albo zapominam, co właściwie miałam zrobić. Łatwo się rozpraszam, nawet przy prostych rzeczach, a jednocześnie czasem potrafię się totalnie wkręcić w jeden temat na kilka godzin. Chcę się diagnozować, bo coraz bardziej widzę, że to nie jest tylko „lenistwo”, tylko coś, co realnie utrudnia mi naukę, pracę i codzienne funkcjonowanie.
+
+2. Podsumowanie objawów
+1. Powód zgłoszenia: Chcę się diagnozować ze względu na trudności w koncentracji, organizacji pracy i nauki oraz codziennym funkcjonowaniu.
+2. Zauważane objawy: Problemy z koncentracją, odkładanie rzeczy na ostatnią chwilę, chaos w głowie, rozpoczynanie kilku zadań jednocześnie i brak ich ukończenia lub zapominanie celu, łatwe rozpraszanie się oraz okresowe intensywne skupianie na jednym temacie.
+
+3. Rozmowa swobodna z wypowiedziami użytkownika i bota
+- Bot: Jaki ciekawy film oglądałeś albo oglądałaś ostatnio?
+- Użytkownik: Oglądałam ostatnio film „Incepcja”, chociaż na początku chciałam obejrzeć coś zupełnie innego, chyba jakiś lekki film na wieczór, ale potem zobaczyłam fragment na TikToku i przypomniałam sobie, że kiedyś już próbowałam go oglądać, tylko chyba zasnęłam albo zaczęłam robić coś innego w trakcie. W każdym razie włączyłam go i na początku naprawdę próbowałam się skupić, bo tam od razu jest dużo informacji o snach, poziomach snu i tym, kto komu coś podkłada do głowy, ale po kilku minutach zaczęłam sprawdzać telefon, potem przypomniało mi się, że miałam odpisać na wiadomość, potem wróciłam do filmu i już nie byłam pewna, czy oni są jeszcze w rzeczywistości, czy już w śnie. I chyba przez to trochę zgubiłam początek, a potem próbowałam sobie to jakoś poukładać, ale im bardziej chciałam to zrozumieć, tym więcej szczegółów mi się mieszało. Najbardziej zapamiętałam scenę z obracającym się korytarzem, bo była bardzo efektowna, ale też scenę z tym bączkiem na końcu, chociaż nie wiem, czy to był bączek, chyba tak, bo on miał pokazać, czy bohater jest w śnie. W ogóle zakończenie mnie zdenerwowało, bo niby wiadomo, o co chodzi, ale jednak nie wiadomo, i potem przez pół godziny czytałam interpretacje w internecie, a potem jeszcze weszłam w komentarze i nagle zrobiła się z tego cała analiza, mimo że miałam tylko obejrzeć film i iść spać. Podobało mi się, ale miałam wrażenie, że co chwilę muszę wracać myślami do wcześniejszych scen, bo pojawiały się nowe informacje, a ja nie zawsze pamiętałam, kto był w którym śnie i po co oni właściwie tam weszli. Trochę też mieszały mi się postacie, szczególnie na początku, bo wszyscy mówili szybko i poważnie, a ja jeszcze jadłam kolację i szukałam ładowarki, więc nie byłam cały czas skupiona. Potem złapałam się na tym, że zamiast oglądać, zaczęłam myśleć o tym, że sny w tym filmie są podobne do takich momentów, kiedy człowiek planuje jedną rzecz, potem robi drugą, potem przypomina sobie trzecią, i nagle nie wiadomo, od czego się zaczęło. Chyba dlatego ten film mi się spodobał, bo był trochę chaotyczny, ale w taki zaplanowany sposób. Tylko że ja nie wiem, czy ja go dobrze zrozumiałam, bo z jednej strony potrafiłabym powiedzieć, że chodziło o wejście do snu i zaszczepienie pomysłu, a z drugiej strony, jakbym miała opowiedzieć dokładnie kolejność wydarzeń, to pewnie bym się pogubiła. Ogólnie bardzo dobry film, ale wymagający, i chyba musiałabym obejrzeć go drugi raz, tym razem bez telefonu, bez jedzenia i bez robienia trzech innych rzeczy naraz.
+- Bot: Dziękuję. Analiza została zakończona, a podsumowanie umieszczono w dedykowanej sekcji poniżej czatu.
+
+4. Retrieval z RAG
+1. [Problemy z organizacją narracji] (cecha dyskursywna)
+Źródło: Coelho et al. (2018); Hill et al. (2025)
+## Problemy z organizacją narracji  
+Źródło: Coelho et al. (2018); Hill et al. (2025)
+Typ: cecha dyskursywna  
+Opis:
+Osoby z ADHD mają trudności z budowaniem spójnej narracji.  
+Wskaźniki:
+- brak kluczowych elementów (np. zakończenia)
+- błędy w kolejności zdarzeń
+- nadmiar zbędnych informacji  
+Interpretacja:
+Może wynikać z zaburzeń funkcji wykonawczych.  
+---
+
+2. [Gadatliwość (verbosity)] (cecha dyskursywna)
+Źródło: Gregg et al. (2002); Coelho et al. (2018, 2021)
+## Gadatliwość (verbosity)  
+Źródło: Gregg et al. (2002); Coelho et al. (2018, 2021)
+Typ: cecha dyskursywna  
+Opis:
+Osoby z ADHD mają tendencję do generowania dłuższych wypowiedzi zawierających nadmiar informacji.  
+Wskaźniki:
+- zwiększona długość wypowiedzi
+- obecność informacji nieistotnych
+- dygresyjność  
+Interpretacja:
+Może wynikać z impulsywności oraz trudności w selekcji informacji.  
+---
+
+3. [Niepłynność wypowiedzi] (cecha dyskursywna)
+Źródło: Engelhardt et al. (2011)
+## Niepłynność wypowiedzi  
+Źródło: Engelhardt et al. (2011)
+Typ: cecha dyskursywna  
+Opis:
+Wypowiedzi są mniej płynne i zawierają przerwy.  
+Wskaźniki:
+- pauzy
+- powtórzenia
+- przerwania wypowiedzi  
+Interpretacja:
+Może wynikać z trudności w planowaniu i podtrzymywaniu wypowiedzi.  
+---
+
+4. [Obniżona spójność wypowiedzi] (cecha jakościowa)
+Źródło: Frontiers (2025); Coelho et al. (2018, 2021)
+## Obniżona spójność wypowiedzi  
+Źródło: Frontiers (2025); Coelho et al. (2018, 2021)
+Typ: cecha jakościowa  
+Opis:
+Wypowiedzi osób z ADHD są mniej spójne i trudniejsze do śledzenia.  
+Wskaźniki:
+- częste zmiany tematu
+- brak logicznych powiązań między zdaniami
+- mniejsza liczba spójników  
+Interpretacja:
+Może wynikać z deficytów uwagi oraz trudności w organizacji myśli.  
+---
+
+5. Kandydackie dopasowania fragmentów rozmowy swobodnej do RAG
+Fragment wypowiedzi: "Oglądałam ostatnio film „Incepcja”, chociaż na początku chciałam obejrzeć coś zupełnie innego, chyba jakiś lekki film na wieczór, ale potem zobaczyłam fragment na TikToku i przypomniałam sobie, że kiedyś już próbowałam go oglądać, tylko chyba zasnęłam albo zaczęłam robić coś innego w trakcie."
+Minimalny próg podobieństwa: 0.28
+Dopasowania zaakceptowane: Brak wystarczająco trafnego dopasowania do bazy wiedzy.
+Dopasowania odrzucone poniżej progu:
+- [Problemy z organizacją narracji] (cecha dyskursywna), wynik podobieństwa=0.129
+- [Obniżona spójność wypowiedzi] (cecha jakościowa), wynik podobieństwa=0.085
+- [Niepłynność wypowiedzi] (cecha dyskursywna), wynik podobieństwa=0.078
+
+Fragment wypowiedzi: "W każdym razie włączyłam go i na początku naprawdę próbowałam się skupić, bo tam od razu jest dużo informacji o snach, poziomach snu i tym, kto komu coś podkłada do głowy, ale po kilku minutach zaczęłam sprawdzać telefon, potem przypomniało mi się, że miałam odpisać na wiadomość, potem wróciłam do filmu i już nie byłam pewna, czy oni są jeszcze w rzeczywistości, czy już w śnie."
+Minimalny próg podobieństwa: 0.28
+Dopasowania zaakceptowane: Brak wystarczająco trafnego dopasowania do bazy wiedzy.
+Dopasowania odrzucone poniżej progu:
+- [Problemy z organizacją narracji] (cecha dyskursywna), wynik podobieństwa=0.241
+- [Obniżona spójność wypowiedzi] (cecha jakościowa), wynik podobieństwa=0.144
+- [Gadatliwość (verbosity)] (cecha dyskursywna), wynik podobieństwa=0.137
+
+Fragment wypowiedzi: "I chyba przez to trochę zgubiłam początek, a potem próbowałam sobie to jakoś poukładać, ale im bardziej chciałam to zrozumieć, tym więcej szczegółów mi się mieszało. Najbardziej zapamiętałam scenę z obracającym się korytarzem, bo była bardzo efektowna, ale też scenę z tym bączkiem na końcu, chociaż nie wiem, czy to był bączek, chyba tak, bo on miał pokazać, czy bohater jest w śnie."
+Minimalny próg podobieństwa: 0.28
+Dopasowania zaakceptowane: Brak wystarczająco trafnego dopasowania do bazy wiedzy.
+Dopasowania odrzucone poniżej progu:
+- [Problemy z organizacją narracji] (cecha dyskursywna), wynik podobieństwa=0.276
+- [Niepłynność wypowiedzi] (cecha dyskursywna), wynik podobieństwa=0.225
+- [Uproszczona struktura składniowa] (cecha składniowa), wynik podobieństwa=0.178
+
+Fragment wypowiedzi: "W ogóle zakończenie mnie zdenerwowało, bo niby wiadomo, o co chodzi, ale jednak nie wiadomo, i potem przez pół godziny czytałam interpretacje w internecie, a potem jeszcze weszłam w komentarze i nagle zrobiła się z tego cała analiza, mimo że miałam tylko obejrzeć film i iść spać."
+Minimalny próg podobieństwa: 0.28
+Dopasowania zaakceptowane:
+- [Problemy z organizacją narracji] (cecha dyskursywna)
+  Wynik podobieństwa: 0.321
+  Siła dopasowania: umiarkowane
+  ## Problemy z organizacją narracji  
+Źródło: Coelho et al. (2018); Hill et al. (2025)
+Typ: cecha dyskursywna  
+Opis:
+Osoby z ADHD mają trudności z budowaniem spójnej narracji.  
+Wskaźniki:
+- brak kluczowych elementów (np. zakończenia)
+- błędy w kolejności zdarzeń
+- nadmiar zbędnych informacji  
+Interpretacja:
+Może wynikać z zaburzeń funkcji wykonawczych.  
+---
+Dopasowania odrzucone poniżej progu:
+- [Niepłynność wypowiedzi] (cecha dyskursywna), wynik podobieństwa=0.270
+- [Obniżona jakość pisania] (cecha ogólna), wynik podobieństwa=0.258
+
+Fragment wypowiedzi: "Podobało mi się, ale miałam wrażenie, że co chwilę muszę wracać myślami do wcześniejszych scen, bo pojawiały się nowe informacje, a ja nie zawsze pamiętałam, kto był w którym śnie i po co oni właściwie tam weszli. Trochę też mieszały mi się postacie, szczególnie na początku, bo wszyscy mówili szybko i poważnie, a ja jeszcze jadłam kolację i szukałam ładowarki, więc nie byłam cały czas skupiona."
+Minimalny próg podobieństwa: 0.28
+Dopasowania zaakceptowane:
+- [Problemy z organizacją narracji] (cecha dyskursywna)
+  Wynik podobieństwa: 0.301
+  Siła dopasowania: umiarkowane
+  ## Problemy z organizacją narracji  
+Źródło: Coelho et al. (2018); Hill et al. (2025)
+Typ: cecha dyskursywna  
+Opis:
+Osoby z ADHD mają trudności z budowaniem spójnej narracji.  
+Wskaźniki:
+- brak kluczowych elementów (np. zakończenia)
+- błędy w kolejności zdarzeń
+- nadmiar zbędnych informacji  
+Interpretacja:
+Może wynikać z zaburzeń funkcji wykonawczych.  
+---
+Dopasowania odrzucone poniżej progu:
+- [Obniżona spójność wypowiedzi] (cecha jakościowa), wynik podobieństwa=0.173
+- [Niepłynność wypowiedzi] (cecha dyskursywna), wynik podobieństwa=0.168
+
+Fragment wypowiedzi: "Potem złapałam się na tym, że zamiast oglądać, zaczęłam myśleć o tym, że sny w tym filmie są podobne do takich momentów, kiedy człowiek planuje jedną rzecz, potem robi drugą, potem przypomina sobie trzecią, i nagle nie wiadomo, od czego się zaczęło. Chyba dlatego ten film mi się spodobał, bo był trochę chaotyczny, ale w taki zaplanowany sposób."
+Minimalny próg podobieństwa: 0.28
+Dopasowania zaakceptowane: Brak wystarczająco trafnego dopasowania do bazy wiedzy.
+Dopasowania odrzucone poniżej progu:
+- [Problemy z organizacją narracji] (cecha dyskursywna), wynik podobieństwa=0.252
+- [Uproszczona struktura składniowa] (cecha składniowa), wynik podobieństwa=0.134
+- [Niepłynność wypowiedzi] (cecha dyskursywna), wynik podobieństwa=0.119
+
+Fragment wypowiedzi: "Tylko że ja nie wiem, czy ja go dobrze zrozumiałam, bo z jednej strony potrafiłabym powiedzieć, że chodziło o ..."
+Minimalny próg podobieństwa: 0.28
+Dopasowania zaakceptowane:
+- [Uproszczona struktura składniowa] (cecha składniowa)
+  Wynik podobieństwa: 0.364
+  Siła dopasowania: umiarkowane
+  ## Uproszczona struktura składniowa  
+Źródło: Kim et al. (2015); Engelhardt et al. (2011)
+Typ: cecha składniowa  
+Opis:
+Zdania osób z ADHD są mniej złożone pod względem gramatycznym.  
+Wskaźniki:
+- mniej zdań podrzędnych
+- mniejsza liczba morfemów na zdanie
+- prostsze konstrukcje składniowe  
+Interpretacja:
+Może być związane z ograniczoną zdolnością planowania wypowiedzi.  
+---
+- [Niepłynność wypowiedzi] (cecha dyskursywna)
+  Wynik podobieństwa: 0.349
+  Siła dopasowania: umiarkowane
+  ## Niepłynność wypowiedzi  
+Źródło: Engelhardt et al. (2011)
+Typ: cecha dyskursywna  
+Opis:
+Wypowiedzi są mniej płynne i zawierają przerwy.  
+Wskaźniki:
+- pauzy
+- powtórzenia
+- przerwania wypowiedzi  
+Interpretacja:
+Może wynikać z trudności w planowaniu i podtrzymywaniu wypowiedzi.  
+---
+- [Zwiększone użycie przymiotników] (cecha leksykalna)
+  Wynik podobieństwa: 0.341
+  Siła dopasowania: umiarkowane
+  ## Zwiększone użycie przymiotników  
+Źródło: Kim et al. (2015)
+Typ: cecha leksykalna  
+Opis:
+W wypowiedziach obserwuje się większą liczbę przymiotników.  
+Wskaźniki:
+- częstsze użycie przymiotników  
+Interpretacja:
+Może wskazywać na bardziej opisowy, ale mniej uporządkowany styl wypowiedzi.  
+---
+
+6. Pełna analiza
+1. Podsumowanie danych: Użytkownik opisuje trudności w koncentracji, organizacji pracy i nauki oraz codziennym funkcjonowaniu. Wspomina o problemach z utrzymaniem uwagi podczas filmu "Incepcja" i odczuciem chaosu w głowie.
+2. Cechy językowe i narracyjne możliwe do rozważenia:
+   2.1. Cechy wsparte zaakceptowanymi dopasowaniami fragmentów: - [Problemy z organizacją narracji] (cecha dyskursywna): 2 fragment(y), wyniki podobieństwa: 0.321, 0.301, siła: umiarkowane
+   2.2. Cechy obecne w kontekście RAG, ale niepotwierdzone w dopasowaniach fragmentów: - [Gadatliwość (verbosity)] (cecha dyskursywna) — Osoby z ADHD mają tendencję do generowania dłuższych wypowiedzi zawierających nadmiar informacji.
+   2.3. Cechy nieobecne: - [Niepłynność wypowiedzi] (cecha dyskursywna) — Wskaźniki: pauzy, powtórzenia, przerwania wypowiedzi
+   2.4. Cechy obecne tylko w ogólnym kontekście RAG, ale niepotwierdzone zaakceptowanymi dopasowaniami fragmentów: - [Obniżona spójność wypowiedzi] (cecha jakościowa) — Wypowiedzi osób z ADHD są mniej spójne i trudniejsze do ...
+3. Fragmenty wypowiedzi warte uwagi, maksymalnie 2 cytaty:
+   - "W ogóle zakończenie mnie zdenerwowało, bo niby wiadomo, o co chodzi, ale jednak nie wiadomo, i potem przez pół godziny czytałam ..."
+   - "Podobało mi się, ale miałam wrażenie, że co chwilę muszę wracać myślami do wcześniejszych scen, bo pojawiały się nowe informacje, a ja nie ..."
+4. Ostrożny wniosek badawczy i zastrzeżenie metodologiczne:
+   Wyniki sugerują możliwość występowania cech językowych charakterystycznych dla ADHD, takich jak problemy z organizacją narracji. Jednakże należy pamiętać, że wynik ten jest pomocniczym materiałem badawczym i nie stanowi diagnozy klinicznej. W celu dokładniejszej oceny wskazane byłoby skonsultowanie się ze specjalistą zajmującym się ADHD, zwłaszcza jeśli opisywane trudności utrudniają codzienne funkcjonowanie.
+   Wynik należy traktować jako pomocniczy materiał badawczy, a nie diagnozę.
+
+7. Krótkie podsumowanie dla użytkownika
+W wypowiedzi pojawiły się sygnały sugerujące możliwe trudności z organizacją pracy i nauki oraz koncentracją uwagi, co jest charakterystyczne dla niektórych osób. Warto omówić te obserwacje ze specjalistą zajmującym się ADHD, zwłaszcza jeśli opisywane trudności utrudniają codzienne funkcjonowanie. Pamiętaj jednak, że wynik ten jest pomocniczym materiałem badawczym i nie stanowi diagnozy klinicznej.

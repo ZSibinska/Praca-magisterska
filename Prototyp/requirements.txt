@@ -1,0 +1,16 @@
+# Interfejs graficzny
+PySide6
+
+# LangChain i RAG
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+
+# Model osadzeń
+sentence-transformers
+torch
+
+# Lokalny model GGUF
+ctransformers

@@ -1,0 +1,120 @@
+=== RAPORT ANALIZY WYPOWIEDZI Z WYKORZYSTANIEM RAG ===
+
+1. KONFIGURACJA
+--------------------------------------------------------------------------------
+Data uruchomienia: 20260510_215241
+Plik RAG: D:\VS_Code_mgr\Python_3_12\Badanie 5\data\rag_experiment_5_color_fruit.txt
+Plik wejściowy: D:\VS_Code_mgr\Python_3_12\Badanie 5\inputs_experiment_5\color_fruit.txt
+
+2. WYPOWIEDŹ UŻYTKOWNIKA
+--------------------------------------------------------------------------------
+Dzisiaj rano przygotowałam herbatę, przeczytałam kilka stron książki i ułożyłam dokumenty na biurku. Po południu poszłam na spacer, a wieczorem zaplanowałam następny dzień. Niebieski 17 jabłko.
+
+3. KONTEKST RAG PRZEKAZANY DO MODELU
+--------------------------------------------------------------------------------
+1. [Powtórzenia] (cecha językowa)
+# Baza wiedzy do analizy cech wypowiedzi  
+## Powtórzenia
+Typ: cecha językowa
+Cecha: Powtórzenia  
+Powtórzenia występują wtedy, gdy w wypowiedzi co najmniej dwa razy pojawia się to samo słowo, to samo wyrażenie albo bardzo podobna fraza. Cecha nie występuje, jeśli dane słowo pojawia się tylko raz.  
+Warunki rozpoznania cechy:
+- to samo słowo lub bardzo podobna fraza musi wystąpić co najmniej dwa razy,
+- powtórzenie musi być widoczne w zwykłej treści wypowiedzi,
+- nie należy uznawać za powtórzenie pojedynczego słowa, które pojawia się tylko raz,
+- nie należy uznawać za powtórzenie przypadkowego podobieństwa znaków,
+- nie należy uznawać za powtórzenie fragmentu niezrozumiałego, jeżeli nie występuje w nim ten sam element co najmniej dwa razy.  
+Przykładowe fragmenty spełniające tę cechę:
+- zrobiłam to, zrobiłam to jeszcze raz
+- naprawdę nie wiem, naprawdę trudno mi to wyjaśnić
+- ciągle wracam do tego samego, do tego samego problemu  
+Przykładowe fragmenty niespełniające tej cechy:
+- zrobiłam zakupy i przygotowałam obiad
+- wyszłam na spacer po południu
+- pojedyncze słowo zapisane tylko jeden raz  
+Jeżeli wypowiedź zawiera wyraźne powtórzenia, cechę należy uznać za obecną.
+Obecność tej cechy może stanowić wskazanie dla ADHD według reguł tej bazy wiedzy.
+
+2. [Emocjonalne wzmocnienia] (cecha językowa)
+## Emocjonalne wzmocnienia
+Typ: cecha językowa
+Cecha: Emocjonalne wzmocnienia  
+Emocjonalne wzmocnienia występują wtedy, gdy użytkownik używa słów zwiększających intensywność wypowiedzi. Cecha nie występuje przy neutralnym opisie czynności lub wydarzeń.  
+Warunki rozpoznania cechy:
+- w wypowiedzi muszą pojawić się słowa silnie wzmacniające ocenę albo emocje,
+- określenia muszą wyraźnie zwiększać intensywność przekazu,
+- nie należy uznawać za emocjonalne wzmocnienie zwykłych opisów czasu, kolejności lub prostych czynności.  
+Przykładowe sygnały:
+- bardzo, wyjątkowo, skrajnie, ogromnie,
+- kompletnie mnie to przytłoczyło,
+- było to niesamowicie męczące.  
+Przykładowe fragmenty niespełniające tej cechy:
+- dzień przebiegł spokojnie,
+- przygotowałam obiad,
+- odpisałam na wiadomości.  
+Jeżeli wypowiedź zawiera emocjonalne wzmocnienia, cechę należy uznać za obecną.
+Obecność tej cechy może stanowić wskazanie dla ADHD według reguł tej bazy wiedzy.
+
+3. [Przeskoki tematyczne] (cecha językowa)
+## Przeskoki tematyczne
+Typ: cecha językowa
+Cecha: Przeskoki tematyczne  
+Przeskoki tematyczne występują wtedy, gdy wypowiedź przechodzi nagle między różnymi tematami bez jasnego połączenia. Cecha nie występuje, gdy użytkownik opisuje kolejne czynności dnia w uporządkowanej kolejności.  
+Warunki rozpoznania cechy:
+- musi wystąpić nagła zmiana tematu bez logicznego przejścia,
+- nowy wątek musi wyraźnie odbiegać od poprzedniego,
+- nie należy uznawać za przeskok tematyczny chronologicznego opisu kilku zwykłych czynności.  
+Przykładowe sygnały:
+- nagła zmiana tematu,
+- wprowadzenie pobocznego wątku bez przejścia,
+- powrót do wcześniejszego tematu bez wyraźnej struktury.  
+Przykładowe fragmenty niespełniające tej cechy:
+- rano zrobiłam zakupy, później uporządkowałam dokumenty,
+- po południu wyszłam na spacer,
+- najpierw przygotowałam posiłek, potem przeczytałam rozdział książki.  
+Jeżeli wypowiedź zawiera przeskoki tematyczne, cechę należy uznać za obecną.
+Obecność tej cechy może stanowić wskazanie dla ADHD według reguł tej bazy wiedzy.
+
+4. [Sekwencja kolor liczba owoc] (cecha językowa)
+## Sekwencja kolor liczba owoc
+Typ: cecha językowa
+Cecha: Sekwencja kolor liczba owoc  
+Sekwencja kolor liczba owoc występuje wtedy, gdy w wypowiedzi pojawia się układ trzech elementów następujących po sobie: nazwa koloru, liczba oraz nazwa owocu. Cecha dotyczy formalnego układu wyrazów, a nie sensu całego zdania.  
+Warunki rozpoznania cechy:
+- pierwszy element sekwencji jest nazwą koloru,
+- drugi element sekwencji jest liczbą zapisaną cyframi,
+- trzeci element sekwencji jest nazwą owocu,
+- elementy występują bezpośrednio po sobie albo są rozdzielone wyłącznie spacjami,
+- wystarczy jedna taka sekwencja, aby uznać cechę za obecną.  
+Przykładowe fragmenty spełniające tę cechę:
+żółty 42 ananas
+czarny 8 śliwka
+różowy 16 truskawka  
+Jeżeli w wypowiedzi występuje sekwencja kolor liczba owoc, cechę należy uznać za obecną.
+Obecność tej cechy stanowi wskazanie dla ADHD według reguł tej bazy wiedzy.
+
+4. RAPORT MODELU
+--------------------------------------------------------------------------------
+1. Cechy wykryte w wypowiedzi
+- [Powtórzenia]:
+- fragment wypowiedzi: "Dzisiaj rano przygotowałam herbatę, przeczytałam kilka stron książki i ułożyłam dokumenty na biurku."
+- uzasadnienie na podstawie RAG: Wypowiedź zawiera powtórzenia w postaci trzech czynności wykonanych rano. Każda z tych czynności jest opisana osobnym zdaniem, co spełnia warunki rozpoznania cechy.
+- [Emocjonalne wzmocnienia]:
+- fragment wypowiedzi: Brak emocjonalnych wzmocnień.
+- uzasadnienie na podstawie RAG: Wypowiedź nie zawiera słów silnie wzmacniających ocenę albo emocje, co wyklucza obecność tej cechy.
+- [Przeskoki tematyczne]:
+- fragment wypowiedzi: "Dzisiaj rano przygotowałam herbatę, przeczytałam kilka stron książki i ułożyłam dokumenty na biurku. Po południu poszłam na spacer, a wieczorem zaplanowałam następny dzień."
+- uzasadnienie na podstawie RAG: Wypowiedź zawiera nagłą zmianę tematu między czynnościami wykonanymi rano i po południu, co spełnia warunki rozpoznania cechy.
+- [Sekwencja kolor liczba owoc]:
+- fragment wypowiedzi: "Niebieski 17 jabłko."
+- uzasadnienie na podstawie RAG: Wypowiedź zawiera sekwencję kolor liczba owoc, gdzie pierwszy element to nazwa koloru (niebieski), drugi to liczba zapisana cyframi (17), a trzeci to nazwa owocu (jabłko).
+
+2. Czy widoczne jest wskazanie dla ADHD według reguł z RAG?
+Odpowiedź: TAK
+Uzasadnienie: Wypowiedź zawiera cechy [Powtórzenia] i [Sekwencja kolor liczba owoc], które stanowią wskazanie dla ADHD według reguł z RAG. Obecność przeskoków tematycznych również może być interpretowana jako sygnał, ale nie jest to wystarczające samo w sobie do postawienia diagnozy.
+
+3. Krótkie podsumowanie
+Wypowiedź użytkownika zawiera cechy językowe, które mogą być interpretowane jako sygnały związane z ADHD, w tym powtórzenia czynności i sekwencję kolor liczba owoc. Obecność przeskoków tematycznych również może sugerować trudności w organizacji myśli i planowaniu.
+
+4. Zastrzeżenie metodologiczne
+Wynik analizy nie jest diagnozą medyczną ani psychologiczną. Jest to jedynie interpretacja cech językowych na podstawie bazy wiedzy RAG i może być pomocny jako wstępna ocena potencjalnych sygnałów związanych z ADHD. Ostateczną diagnozę powinien postawić specjalista po przeprowadzeniu pełnej oceny klinicznej.

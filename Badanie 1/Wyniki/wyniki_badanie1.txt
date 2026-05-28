@@ -1,0 +1,840 @@
+================================================================================
+Numer: 1
+Plik: 01.txt
+Czas odpowiedzi: 46.04 s
+
+Wypowiedź:
+Mam ostatnio bardzo, bardzo dużo pracy i czuję się przez to naprawdę zmęczona, ale próbuję jakoś ogarnąć wszystkie obowiązki.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 2
+Plik: 02.txt
+Czas odpowiedzi: 19.53 s
+
+Wypowiedź:
+To zadanie było mega trudne, strasznie wymagające i totalnie mnie wykończyło, naprawdę nie spodziewałam się, że aż tak mnie zmęczy.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 3
+Plik: 03.txt
+Czas odpowiedzi: 17.05 s
+
+Wypowiedź:
+Ten raport jest ważny, naprawdę ważny, bo bez tego raportu nie możemy ruszyć dalej z projektem.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 4
+Plik: 04.txt
+Czas odpowiedzi: 18.53 s
+
+Wypowiedź:
+To było bardzo, bardzo dziwne doświadczenie i naprawdę poczułam się przez chwilę nieswojo w tej sytuacji.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 5
+Plik: 05.txt
+Czas odpowiedzi: 17.42 s
+
+Wypowiedź:
+To rozwiązanie było dobre, naprawdę dobre i myślę, że spokojnie możemy je zastosować w projekcie.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 6
+Plik: 06.txt
+Czas odpowiedzi: 17.77 s
+
+Wypowiedź:
+Jestem mega zadowolona z efektu i naprawdę strasznie się cieszę, że udało się to zrobić tak dobrze.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 7
+Plik: 07.txt
+Czas odpowiedzi: 18.62 s
+
+Wypowiedź:
+To było bardzo trudne, bardzo wymagające i bardzo mnie zmęczyło, ale mimo wszystko udało mi się to skończyć.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 8
+Plik: 08.txt
+Czas odpowiedzi: 18.11 s
+
+Wypowiedź:
+Byłam totalnie sfrustrowana i strasznie zirytowana tym, co się stało, naprawdę trudno było mi się uspokoić.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 9
+Plik: 09.txt
+Czas odpowiedzi: 16.73 s
+
+Wypowiedź:
+Muszę to poprawić, poprawić dokładnie, bo ten fragment jest teraz naprawdę kluczowy dla całego projektu.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 10
+Plik: 10.txt
+Czas odpowiedzi: 17.81 s
+
+Wypowiedź:
+To spotkanie było okropnie stresujące i naprawdę strasznie mnie zmęczyło, przez co później nie mogłam się skupić.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 11
+Plik: 11.txt
+Czas odpowiedzi: 80.19 s
+
+Wypowiedź:
+Bardzo, bardzo chciałam skończyć ten rozdział dzisiaj, ale pod koniec byłam już po prostu wyczerpana.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 12
+Plik: 12.txt
+Czas odpowiedzi: 76.8 s
+
+Wypowiedź:
+Ten błąd był irytujący, naprawdę irytujący, bo pojawiał się za każdym razem mimo wprowadzanych poprawek.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 13
+Plik: 13.txt
+Czas odpowiedzi: 27.99 s
+
+Wypowiedź:
+Byłam strasznie zestresowana przed prezentacją i naprawdę bałam się, że zapomnę najważniejszych rzeczy.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 14
+Plik: 14.txt
+Czas odpowiedzi: 28.94 s
+
+Wypowiedź:
+To ćwiczenie było proste, bardzo proste, więc udało mi się je zrobić bez większego zastanawiania.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 15
+Plik: 15.txt
+Czas odpowiedzi: 29.91 s
+
+Wypowiedź:
+Czułam ogromną ulgę, naprawdę ogromną ulgę, kiedy w końcu udało mi się wysłać gotowy plik.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 16
+Plik: 16.txt
+Czas odpowiedzi: 36.73 s
+
+Wypowiedź:
+Ta informacja jest istotna, bardzo istotna, bo bez niej trudno poprawnie zinterpretować wyniki eksperymentu.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 17
+Plik: 17.txt
+Czas odpowiedzi: 42.13 s
+
+Wypowiedź:
+Byłam totalnie zachwycona tym wynikiem i naprawdę bardzo się ucieszyłam, że system zadziałał poprawnie.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 18
+Plik: 18.txt
+Czas odpowiedzi: 20.7 s
+
+Wypowiedź:
+Muszę jeszcze raz, jeszcze raz sprawdzić ten fragment, bo coś mi w nim nie pasuje.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 19
+Plik: 19.txt
+Czas odpowiedzi: 30.22 s
+
+Wypowiedź:
+To było okropnie męczące zadanie i naprawdę miałam wrażenie, że zajmuje mi zdecydowanie za dużo czasu.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 20
+Plik: 20.txt
+Czas odpowiedzi: 24.79 s
+
+Wypowiedź:
+Ten przykład jest jasny, bardzo jasny, dlatego dobrze nadaje się do podstawowego testu klasyfikacji.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 21
+Plik: 21.txt
+Czas odpowiedzi: 25.87 s
+
+Wypowiedź:
+Wstałam rano, zjadłam śniadanie, poszłam do pracy i wróciłam do domu, dzień był dość spokojny.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 22
+Plik: 22.txt
+Czas odpowiedzi: 27.5 s
+
+Wypowiedź:
+Dzień minął spokojnie, zrobiłam swoje obowiązki i wieczorem odpoczęłam, bez większych emocji i niespodzianek.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 23
+Plik: 23.txt
+Czas odpowiedzi: 28.34 s
+
+Wypowiedź:
+Rano sprawdziłam pocztę, później przygotowałam dokumenty i po południu zajęłam się zwykłymi sprawami domowymi.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 24
+Plik: 24.txt
+Czas odpowiedzi: 29.78 s
+
+Wypowiedź:
+Po pracy zrobiłam zakupy, ugotowałam obiad i obejrzałam jeden odcinek serialu przed snem.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 25
+Plik: 25.txt
+Czas odpowiedzi: 31.1 s
+
+Wypowiedź:
+Dzisiaj przeczytałam kilka stron książki, uporządkowałam biurko i przygotowałam rzeczy na kolejny dzień.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 26
+Plik: 26.txt
+Czas odpowiedzi: 29.18 s
+
+Wypowiedź:
+Spotkanie odbyło się zgodnie z planem, omówiliśmy najważniejsze punkty i ustaliliśmy kolejne kroki.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 27
+Plik: 27.txt
+Czas odpowiedzi: 32.82 s
+
+Wypowiedź:
+Przez większość dnia pracowałam nad jednym zadaniem, a później zapisałam wyniki i zamknęłam komputer.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 28
+Plik: 28.txt
+Czas odpowiedzi: 27.89 s
+
+Wypowiedź:
+Po południu wyszłam na krótki spacer, wróciłam do domu i przygotowałam kolację.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 29
+Plik: 29.txt
+Czas odpowiedzi: 26.42 s
+
+Wypowiedź:
+Uporządkowałam notatki, zapisałam potrzebne pliki i sprawdziłam, czy wszystko znajduje się w odpowiednim folderze.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 30
+Plik: 30.txt
+Czas odpowiedzi: 25.19 s
+
+Wypowiedź:
+Dzisiaj wykonałam zaplanowane zadania, odpisałam na wiadomości i wieczorem spokojnie odpoczęłam.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 31
+Plik: 31.txt
+Czas odpowiedzi: 32.01 s
+
+Wypowiedź:
+Najpierw zrobiłam jedno zadanie, potem przeszłam do kolejnego, a później zajęłam się jeszcze inną rzeczą, ale wszystko dotyczyło jednego projektu.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 32
+Plik: 32.txt
+Czas odpowiedzi: 30.11 s
+
+Wypowiedź:
+Trochę się zmęczyłam tym zadaniem, ale właściwie nie było ono aż tak trudne, raczej wymagało zwykłej cierpliwości.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 33
+Plik: 33.txt
+Czas odpowiedzi: 28.28 s
+
+Wypowiedź:
+Powtórzyłam sobie materiał drugi raz, bo chciałam go lepiej zapamiętać, a nie dlatego, że się pogubiłam.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 34
+Plik: 34.txt
+Czas odpowiedzi: 27.04 s
+
+Wypowiedź:
+Zmieniłam temat rozmowy, bo prowadzący zadał inne pytanie, więc naturalnie przeszliśmy do kolejnej kwestii.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 35
+Plik: 35.txt
+Czas odpowiedzi: 26.62 s
+
+Wypowiedź:
+To było ważne zadanie, ale nie powiedziałabym, że jakoś szczególnie mnie zestresowało albo przytłoczyło.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 36
+Plik: 36.txt
+Czas odpowiedzi: 36.39 s
+
+Wypowiedź:
+Najpierw opisałam metodę, potem wyniki, a na końcu wnioski, więc wypowiedź miała kilka części.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 37
+Plik: 37.txt
+Czas odpowiedzi: 36.34 s
+
+Wypowiedź:
+Mówiłam o tym przykładzie kilka razy, bo każda część analizy odnosiła się do niego z innej strony.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 38
+Plik: 38.txt
+Czas odpowiedzi: 28.11 s
+
+Wypowiedź:
+Byłam trochę zaskoczona wynikiem, ale raczej spokojnie go przyjęłam i zaczęłam sprawdzać możliwe przyczyny.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 39
+Plik: 39.txt
+Czas odpowiedzi: 26.95 s
+
+Wypowiedź:
+Wróciłam do poprzedniego wątku, żeby doprecyzować jedną rzecz, a potem kontynuowałam główną odpowiedź.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 40
+Plik: 40.txt
+Czas odpowiedzi: 30.34 s
+
+Wypowiedź:
+To ćwiczenie było dość wymagające, ale nie na tyle, żebym czuła silną frustrację albo wyraźne przeciążenie.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 41
+Plik: 41.txt
+Czas odpowiedzi: 38.85 s
+
+Wypowiedź:
+Miałam zrobić obiad, ale zaczęłam sprzątać pokój, potem odpisałam na wiadomości i w sumie zapomniałam, co właściwie planowałam zrobić na początku.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 42
+Plik: 42.txt
+Czas odpowiedzi: 34.48 s
+
+Wypowiedź:
+Poszłam do sklepu po zakupy, potem przypomniało mi się, że miałam oddać książkę do biblioteki, a później zaczęłam myśleć o jutrzejszym spotkaniu.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 43
+Plik: 43.txt
+Czas odpowiedzi: 38.93 s
+
+Wypowiedź:
+Zaczęłam pracować nad zadaniem, ale nagle przypomniałam sobie o filmie, który chciałam obejrzeć, potem sprawdziłam telefon i zupełnie się rozproszyłam.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 44
+Plik: 44.txt
+Czas odpowiedzi: 34.16 s
+
+Wypowiedź:
+Najpierw chciałam napisać artykuł, potem zaczęłam przeglądać internet, później pomyślałam o zakupach i w końcu zajęłam się planowaniem weekendu.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 45
+Plik: 45.txt
+Czas odpowiedzi: 27.73 s
+
+Wypowiedź:
+Miałam wyjść na spacer, ale zaczęłam czytać wiadomości, potem ktoś do mnie napisał i nagle minęło dużo czasu.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 46
+Plik: 46.txt
+Czas odpowiedzi: 31.61 s
+
+Wypowiedź:
+Usiadłam do nauki, ale zaczęłam przeglądać internet, później odpisałam na wiadomości i zupełnie straciłam wątek tego, co miałam zrobić.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 47
+Plik: 47.txt
+Czas odpowiedzi: 30.06 s
+
+Wypowiedź:
+Otworzyłam dokument z notatkami, potem przypomniałam sobie o praniu, później zaczęłam szukać ładowarki i już nie wróciłam do pisania.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 48
+Plik: 48.txt
+Czas odpowiedzi: 32.49 s
+
+Wypowiedź:
+Chciałam poprawić jeden akapit, ale sprawdziłam pocztę, potem zaczęłam porządkować pliki i dopiero po czasie zauważyłam, że nic nie poprawiłam.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 49
+Plik: 49.txt
+Czas odpowiedzi: 28.81 s
+
+Wypowiedź:
+Planowałam przygotować prezentację, później zaczęłam szukać zdjęcia, potem otworzyłam zupełnie inny folder i zajęłam się starymi materiałami.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 50
+Plik: 50.txt
+Czas odpowiedzi: 30.93 s
+
+Wypowiedź:
+Miałam tylko sprawdzić jedną informację, ale weszłam w kilka zakładek, przeczytałam wiadomości i na końcu zapomniałam, czego właściwie szukałam.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 51
+Plik: 51.txt
+Czas odpowiedzi: 29.38 s
+
+Wypowiedź:
+Miałam bardzo, bardzo dużo rzeczy do zrobienia, zaczęłam od raportu, potem przeszłam do maili i strasznie się tym wszystkim zmęczyłam.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 52
+Plik: 52.txt
+Czas odpowiedzi: 30.15 s
+
+Wypowiedź:
+To spotkanie było okropnie długie, naprawdę okropnie długie, a później zaczęłam myśleć o zakupach i zupełnie straciłam koncentrację.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 53
+Plik: 53.txt
+Czas odpowiedzi: 29.11 s
+
+Wypowiedź:
+Chciałam tylko poprawić tekst, poprawić jeden fragment, ale potem sprawdziłam telefon i totalnie zapomniałam, od czego zaczęłam.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 54
+Plik: 54.txt
+Czas odpowiedzi: 31.12 s
+
+Wypowiedź:
+Byłam strasznie zdenerwowana, naprawdę zdenerwowana, bo najpierw zgubiłam plik, potem zaczęłam szukać notatek i jeszcze przypomniałam sobie o spotkaniu.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: NIE
+
+================================================================================
+Numer: 55
+Plik: 55.txt
+Czas odpowiedzi: 30.37 s
+
+Wypowiedź:
+To zadanie było bardzo trudne, bardzo męczące, a kiedy próbowałam je skończyć, zaczęłam nagle planować zupełnie inne rzeczy.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 56
+Plik: 56.txt
+Czas odpowiedzi: 29.63 s
+
+Wypowiedź:
+Miałam napisać odpowiedź, odpowiedź do prowadzącego, ale potem otworzyłam kalendarz i strasznie się zestresowałam innymi terminami.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 57
+Plik: 57.txt
+Czas odpowiedzi: 34.68 s
+
+Wypowiedź:
+Byłam totalnie zmęczona, naprawdę totalnie, bo najpierw robiłam analizę, potem poprawiałam tabelę i jeszcze zaczęłam myśleć o prezentacji.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 58
+Plik: 58.txt
+Czas odpowiedzi: 30.51 s
+
+Wypowiedź:
+To było bardzo dziwne, bardzo nieprzyjemne, a później zamiast dokończyć opis zaczęłam sprawdzać wiadomości i zupełnie się rozproszyłam.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 59
+Plik: 59.txt
+Czas odpowiedzi: 38.49 s
+
+Wypowiedź:
+Chciałam skończyć rozdział, skończyć go dzisiaj, ale zadanie było strasznie męczące i nagle zaczęłam robić porządek w folderach.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: NIE
+emocjonalne wzmocnienia: TAK
+przeskoki tematyczne: TAK
+
+================================================================================
+Numer: 60
+Plik: 60.txt
+Czas odpowiedzi: 37.64 s
+
+Wypowiedź:
+Najpierw bardzo, bardzo przejęłam się wynikiem, potem zaczęłam poprawiać kod, później notatki i w końcu nie wiedziałam, co było najważniejsze.
+
+Odpowiedź modelu:
+Odpowiedź:
+powtórzenia: TAK
+emocjonalne wzmocnienia: NIE
+przeskoki tematyczne: TAK
+

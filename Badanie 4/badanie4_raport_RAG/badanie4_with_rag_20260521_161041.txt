@@ -1,0 +1,60 @@
+=== EKSPERYMENT 3 — WARIANT Z RAG ===
+
+Model: D:\VS_Code_mgr\Python_3_12\Modele\Bielik-11B-v2.3-Instruct.Q4_K_M.gguf
+Temperatura: 0.2
+Plik RAG: D:\VS_Code_mgr\Python_3_12\Badanie 3\data\adhd_cechy_jezykowe.txt
+Model osadzeń: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Liczba słów w wypowiedzi: 279
+
+=== WYPOWIEDŹ UŻYTKOWNIKA ===
+Miałam opowiedzieć o tym, jak wyglądał mój ostatni tydzień, ale trochę nie wiem, od czego zacząć, bo niby nic wielkiego się nie stało, a jednak cały czas miałam wrażenie, że wszystko mi się rozjeżdża. W poniedziałek miałam zrobić jedną rzecz, w sensie wysłać maila, tylko zanim go wysłałam, zaczęłam poprawiać tabelkę, potem przypomniałam sobie o praniu, a potem już w ogóle szukałam ładowarki, chociaż mail dalej był otwarty. I to było takie strasznie męczące, naprawdę męczące, bo cały dzień coś robiłam, ale jak wieczorem próbowałam powiedzieć, co konkretnie zrobiłam, to wyszło, że właściwie niewiele.
+
+We wtorek było podobnie. Zaczęłam czytać dokumentację, potem zapisałam trzy krótkie notatki, potem nagle przeskoczyłam do innego zadania, bo wydawało mi się ważniejsze, potem wróciłam, ale już nie pamiętałam, co chciałam sprawdzić. Dokument był długi, skomplikowany, chaotyczny, taki ciężki i przytłaczający, więc czytałam fragmentami. W sumie dużo mówiłam o tym koleżance, chyba za dużo, bo zaczęłam od problemu z dokumentem, potem opowiadałam o kawie, potem o tym, że w tramwaju ktoś głośno rozmawiał, a dopiero później wróciłam do tego, że nie skończyłam zadania.
+
+Najgorsze jest to, że ja często mam dużo zdań w głowie, dużo małych kawałków, ale one nie układają się w jedną prostą historię. Piszę krótko, potem dopisuję, potem kasuję, potem znowu dopisuję coś bardzo opisowego, na przykład że coś jest okropne, dziwne, męczące, ciężkie, rozpraszające, i przez to tekst robi się większy, ale chyba nie bardziej konkretny. Czasami powtarzam te same słowa, bo nie mogę znaleźć lepszego słowa, więc piszę, że coś było trudne, bardzo trudne, naprawdę trudne. No i robię pauzy, urywam zdania, zaczynam od nowa, gubię puentę. Na końcu mam poczucie, że powiedziałam dużo, ale niekoniecznie to, co było najważniejsze.
+
+=== POBRANY KONTEKST RAG ===
+[1] Problemy z organizacją narracji Typ: cecha dyskursywna Źródło: Coelho et al. (2018); Hill et al. (2025) Treść: ## Problemy z organizacją narracji Źródło: Coelho et al. (2018); Hill et al. (2025) Typ: cecha dyskursywna Opis: Osoby z ADHD mają trudności z budowaniem spójnej narracji. Wskaźniki: - brak kluczowych elementów (np. zakończenia) - błędy w kolejności zdarzeń - nadmiar zbędnych informacji Interpretacja: Może wynikać z zaburzeń funkcji wykonawczych. --- [2] Niepłynność wypowiedzi Typ: cecha dyskursywna Źródło: Engelhardt et al. (2011) Treść: ## Niepłynność wypowiedzi Źródło: Engelhardt et al. (2011) Typ: cecha dyskursywna Opis: Wypowiedzi są mniej płynne i zawierają przerwy. Wskaźniki: - pauzy - powtórzenia - przerwania wypowiedzi Interpretacja: Może wynikać z trudności w planowaniu i podtrzymywaniu wypowiedzi. --- [3] Zmniejszona długość wypowiedzi Typ: cecha ilościowa Źródło: Frontiers (2025) Treść: # ADHD – cechy językowe (RAG) ## Zmniejszona długość wypowiedzi Źródło: Frontiers (2025) Typ: cecha ilościowa Opis: Wypowiedzi osób z ADHD są średnio krótsze w porównaniu do grupy kontrolnej. Wskaźniki: - krótsze teksty - mniejsza liczba słów Interpretacja: Może to wynikać z trudności w utrzymaniu uwagi oraz planowaniu wypowiedzi. --- [4] Obniżona jakość pisania Typ: cecha ogólna Źródło: Gregg et al. (2002) Treść: ## Obniżona jakość pisania Źródło: Gregg et al. (2002) Typ: cecha ogólna Opis: Jakość pisania oceniana całościowo jest niższa u osób z ADHD. Wskaźniki: - słabsze powiązanie cech leksykalnych i składniowych - niższa ocena holistyczna tekstu Interpretacja: Dotyczy organizacji i struktury wypowiedzi, a nie błędów językowych. --- [5] Gadatliwość (verbosity) Typ: cecha dyskursywna Źródło: Gregg et al. (2002); Coelho et al. (2018, 2021) Treść: ## Gadatliwość (verbosity) Źródło: Gregg et al. (2002); Coelho et al. (2018, 2021) Typ: cecha dyskursywna Opis: Osoby z ADHD mają tendencję do generowania dłuższych wypowiedzi zawierających nadmiar informacji. Wskaźniki: - zwiększona długość wypowiedzi - obecność informacji nieistotnych - dygresyjność Interpretacja: Może wynikać z impulsywności oraz trudności w selekcji informacji. ---
+
+=== RAPORT MODELU ===
+1. Krótkie podsumowanie danych:
+Wypowiedź użytkownika zawiera opis ostatnich kilku dni, z wyraźnymi trudnościami w organizacji i spójności narracji. Użytkownik wspomina o problemach z utrzymaniem uwagi na jednym zadaniu oraz o męczącym poczuciu rozproszenia.
+
+2. Tabela identyfikacji cech językowych:
+| Cecha                    | Wartość   |
+|--------------------------|-----------|
+| Zmniejszona długość wypowiedzi | NIEJEDNOZNACZNE |
+| Zmniejszona różnorodność leksykalna | TAK     |
+| Zmniejszona gęstość leksykalna  | NIEJEDNOZNACZNE |
+| Obniżona spójność wypowiedzi   | TAK      |
+| Zwiększona liczba zdań         | TAK      |
+| Uproszczona struktura składniowa | NIEJEDNOZNACZNE |
+| Zmniejszone użycie wybranych kategorii słów | NIEJEDNOZNACZNE |
+| Zwiększone użycie przymiotników  | TAK     |
+| Gadatliwość                    | TAK      |
+| Obniżona jakość pisania        | TAK      |
+| Problemy z organizacją narracji | TAK      |
+| Nadmiar informacji i dygresyjność | TAK     |
+| Niepłynność wypowiedzi          | TAK      |
+| Mniejsza złożoność i informatywność wypowiedzi | NIEJEDNOZNACZNE |
+
+3. Fragmenty wypowiedzi warte uwagi:
+- "W poniedziałek miałam zrobić jedną rzecz, w sensie wysłać maila, tylko zanim go wysłałam, zaczęłam poprawiać tabelkę, potem przypomniałam sobie o praniu, a potem już w ogóle szukałam ładowarki, chociaż mail dalej był otwarty."
+- "Dokument był długi, skomplikowany, chaotyczny, taki ciężki i przytłaczający, więc czytałam fragmentami."
+- "Piszę krótko, potem dopisuję, potem kasuję, potem znowu dopisuję coś bardzo opisowego, na przykład że coś jest okropne, dziwne, męczące, ciężkie, rozpraszające."
+- "Na końcu mam poczucie, że powiedziałam dużo, ale niekoniecznie to, co było najważniejsze."
+
+4. Dominujące sygnały widoczne w wypowiedzi:
+- Trudności z utrzymaniem uwagi na jednym zadaniu i przechodzenie między różnymi aktywnościami bez wyraźnego celu.
+- Nadmiar informacji i dygresyjność w narracji, co prowadzi do braku spójności.
+- Niepłynność wypowiedzi z licznymi przerwami i powtórzeniami.
+- Obniżona jakość pisania z widocznymi problemami z organizacją narracji.
+
+5. Ostrożny wniosek badawczy:
+W oparciu o analizę cech językowych i narracyjnych, można stwierdzić, że wypowiedź użytkownika wykazuje pewne cechy charakterystyczne dla osób z ADHD. Wskazują na to trudności z utrzymaniem uwagi, organizacją narracji oraz niepłynność wypowiedzi. Jednakże, ze względu na ograniczoną ilość danych i brak możliwości postawienia diagnozy klinicznej, wyniki te należy traktować jako ostrożne obserwacje.
+
+6. Czy warto rozważyć konsultację ze specjalistą i dlaczego:
+Ze względu na opisane trudności, które mogą mieć wpływ na codzienne funkcjonowanie użytkownika, warto rozważyć konsultację z psychologiem lub specjalistą zajmującym się ADHD. Profesjonalna diagnoza i ewentualne wsparcie terapeutyczne mogą pomóc w lepszym zarządzaniu tymi wyzwaniami.
+
+7. Zastrzeżenie metodologiczne:
+Należy pamiętać, że analiza ta opiera się na ograniczonej ilości danych i nie może być traktowana jako diagnoza kliniczna. Wyniki powinny być interpretowane ostrożnie i w kontekście pełnego obrazu funkcjonowania użytkownika, uwzględniając również inne potencjalne czynniki wpływające na jego zachowanie językowe.
